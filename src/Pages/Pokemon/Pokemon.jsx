@@ -25,7 +25,7 @@ function Pokemon() {
         <Grid container spacing={2}  className={classes.pokemon}>
           {name.map((e) => {
             return (
-              <Grid item key={e.name} xs={3} className={classes.pokemonCard}>
+              <Grid item key={e.name} xs={12} sm={8} md={6} lg={3} className={classes.pokemonCard}>
                 <MediaCard
                   img={`https://source.unsplash.com/1600x900/?pokemon`}
                   imgName={e.name}

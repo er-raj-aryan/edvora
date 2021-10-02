@@ -37,6 +37,9 @@ const useStyle = makeStyles(() => ({
     objectFit: "cover",
     position: "absolute",
   },
+  home:{
+    
+  },
   homeItem1:{
     position: "absolute",
     height:'100vh',
@@ -54,9 +57,12 @@ const useStyle = makeStyles(() => ({
     zIndex: 99,
     height: '100vh',
     width: '100%',
+    padding:'10px',
     display: 'flex',
     alignItems: 'center',
+    flexDirection:'column !important',
     justifyContent: 'center',
+    textAlign:'center'
   },
  aboutImg: {
     height: "100vh",
@@ -82,9 +88,11 @@ const useStyle = makeStyles(() => ({
     height: '100vh',
     width: '100%',
     display: 'flex',
+    padding:'10px',
     flexDirection:'column !important',
     alignItems: 'center',
     justifyContent: 'center',
+    textAlign:'center'
   },
   aboutdivide:{
     width: '100px',
@@ -93,17 +101,18 @@ const useStyle = makeStyles(() => ({
   },
   pokemon:{
     justifyContent:'center',
-    padding:'30px',
+    padding:'10px',
     position: "absolute",
     zIndex: 99,
     height: '100vh',
-    width: '100%',
+    width: '100% !important',
     display: 'flex',
-    // flexDirection:'column !important',
     alignItems: 'center',
+    marginLeft:'0px !important',
   },
   pokemonCard:{
     display:'flex',
+    justifyContent: 'center',
   },
   
 }));
